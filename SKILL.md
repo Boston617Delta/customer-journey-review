@@ -1,6 +1,6 @@
 ---
 name: customer-journey-clarity
-description: "Review or improve marketing pages, offers, onboarding, and service handoffs by clarifying decisions, commitments, proof, progress, and next steps. Use for customer-journey friction and trust problems; visual styling alone does not require this skill."
+description: "Review or improve marketing pages, offers, creative briefs, onboarding, and service handoffs by clarifying audience intent, commitments, proof, and outcomes. Use for journey friction, trust, and creative-to-offer alignment; this skill does not operate ad campaigns or prescribe visual styling."
 ---
 
 # Customer Journey Clarity
@@ -14,6 +14,10 @@ Use available business context before recommending changes. Identify the audienc
 Inspect the actual page, flow, copy, or artifact when available. For visual or interaction findings, capture the relevant screen and state. For a document-only review, distinguish what the text establishes from behavior that still needs verification. If live access is missing, provide a bounded review without describing unobserved behavior as fact.
 
 Map only the steps relevant to the question. Track the person's goal and information across the entry message, destination, decision, action, confirmation, and return or exit. Ask for missing information only when it changes the recommendation materially.
+
+For research or creative strategy, read [Creative research](references/creative-research.md). Begin with the decision the research must inform, an agreed business outcome, and production constraints. Keep actual customer evidence separate from the audience a piece of creative appears to address.
+
+For adapting a supplied reference or swipe file, read [From reference to brief](references/swipe-to-brief.md). Inspect the selected artifact and explain what to borrow, what to change, and what remains unknown. A saved example is not evidence that it performed well.
 
 ## Find the source of uncertainty
 
@@ -46,6 +50,8 @@ Use the smallest change that addresses the uncertainty. A copy revision, clearer
 Choose measures suited to the goal: comprehension, independent task success, correct billing understanding, qualified inquiries, successful fulfillment, recovery, or useful return visits. Add guardrails such as error rate, duplicate actions, complaints, opt-outs, or unnecessary waiting where relevant.
 
 Define the comparison population, denominator, timeframe, and meaningful outcome before interpreting a lift. Distinguish intermediate clicks from fulfillment or revenue, relative percentages from percentage points, and a test objective from a result. For low-volume journeys, direct observation, reconciliation, and customer feedback may be more informative than an underpowered A/B test.
+
+Separate the business outcome used to decide success from diagnostic signals used to investigate it. High attention or click-through with weak conversion calls for checking traffic quality, measurement, offer fit, destination behavior, and fulfillment constraints; it does not by itself prove one cause. Platform spend allocation, competitor runtime, and organic engagement do not establish a paid-conversion winner.
 
 Friction is contextual. Remove effort that obstructs the task; preserve a deliberate decision when understanding or commitment is part of success. Defaults, segmentation, progress indicators, and simplified navigation require a task-specific reason rather than a universal rule.
 

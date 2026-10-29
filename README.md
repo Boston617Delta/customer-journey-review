@@ -2,7 +2,7 @@
 
 A reusable AI skill for improving decisions across marketing pages, offers, onboarding, and service handoffs. It connects observed friction to concrete changes and useful outcomes, with attention to clear commitments, relevant proof, truthful status, and user control.
 
-The skill works for service businesses, commerce, and software. It adapts to the business and the scope of the request rather than prescribing a universal funnel or visual style.
+The skill works for service businesses, commerce, and software. It adapts to the business and the scope of the request rather than prescribing a universal funnel or visual style. Conditional guidance covers audience research, creative-to-offer alignment, adapting a swipe into a brief, and interpreting diagnostic metrics.
 
 ## Install in Codex
 
@@ -14,7 +14,13 @@ git clone https://github.com/Boston617Delta/customer-journey-clarity.git ~/.code
 
 If that directory already exists, inspect it before updating it. Do not overwrite an existing local skill blindly. Environments with a custom skills directory can use that location instead.
 
-The entrypoint is [SKILL.md](SKILL.md). Supporting decision checks are in [references/decision-checks.md](references/decision-checks.md). The optional `agents/openai.yaml` supplies display and invocation metadata.
+The entrypoint is [SKILL.md](SKILL.md). Supporting references are loaded only when relevant:
+
+- [Decision checks](references/decision-checks.md)
+- [Creative research](references/creative-research.md)
+- [From reference to brief](references/swipe-to-brief.md)
+
+The optional `agents/openai.yaml` supplies display and invocation metadata.
 
 ## Use
 
@@ -26,7 +32,7 @@ The skill supports review, scoped improvement, and translating findings into a r
 
 This repository contains original reusable guidance. Case-study notes, screenshots, client details, internal roadmaps, and the optional examples library are maintained separately and are not included in this repository or its history.
 
-The guidance was informed by a review of [Growth.Design case studies](https://growth.design/case-studies). This is an independent synthesis, with no affiliation or endorsement. Historical examples, proposed redesigns, and reported results should retain their context when used.
+The guidance was informed by a review of [Growth.Design case studies](https://growth.design/case-studies) and lessons from [Motion's Creative Strategy Bootcamp](https://motionapp.com/events/2026-creative-strategy-bootcamp/homebase/recordings). This is an independent synthesis, with no affiliation or endorsement. Historical examples, proposed redesigns, and reported results should retain their context when used. The public package contains no course recordings, transcripts, decks, or private swipe assets.
 
 ## License
 
