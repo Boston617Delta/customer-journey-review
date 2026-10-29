@@ -1,9 +1,9 @@
 ---
-name: customer-journey-clarity
+name: customer-journey-review
 description: "Review or improve marketing pages, offers, creative briefs, onboarding, and service handoffs by clarifying audience intent, commitments, proof, and outcomes. Use for journey friction, trust, and creative-to-offer alignment; this skill does not operate ad campaigns or prescribe visual styling."
 ---
 
-# Customer Journey Clarity
+# Customer Journey Review
 
 Help people understand a decision, take a useful action, and recognize its outcome. Apply this to the user's actual business model: a service engagement, store, subscription, or software workflow has different commitments and finish lines.
 

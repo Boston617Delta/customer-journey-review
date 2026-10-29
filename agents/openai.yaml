@@ -1,4 +1,4 @@
 interface:
-  display_name: "Customer Journey Clarity"
+  display_name: "Customer Journey Review"
   short_description: "Improve decisions from discovery through delivery"
-  default_prompt: "Use $customer-journey-clarity to review this customer journey and prioritize changes that improve understanding, trust, and useful outcomes."
+  default_prompt: "Use $customer-journey-review to review this customer journey and prioritize changes that improve understanding, trust, and useful outcomes."
