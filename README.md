@@ -14,17 +14,49 @@ git clone https://github.com/Boston617Delta/customer-journey-clarity.git ~/.code
 
 If that directory already exists, inspect it before updating it. Do not overwrite an existing local skill blindly. Environments with a custom skills directory can use that location instead.
 
+## Install in Claude Code
+
+With Git and Claude Code installed, run this in your terminal to make the skill available across your local projects:
+
+```sh
+mkdir -p ~/.claude/skills
+git clone https://github.com/Boston617Delta/customer-journey-clarity.git ~/.claude/skills/customer-journey-clarity
+```
+
+For one project, run the following from that project's root instead:
+
+```sh
+mkdir -p .claude/skills
+git clone https://github.com/Boston617Delta/customer-journey-clarity.git .claude/skills/customer-journey-clarity
+```
+
+Choose one location. If the destination already exists, inspect it before updating. For a clean personal clone of this repository, update with:
+
+```sh
+git -C ~/.claude/skills/customer-journey-clarity pull --ff-only
+```
+
+Start Claude Code and invoke:
+
+```text
+/customer-journey-clarity Review this landing page for offer clarity and useful next steps: <URL>
+```
+
+Keep `SKILL.md` and `references/` together. See [Anthropic's skill documentation](https://code.claude.com/docs/en/skills) for locations and invocation.
+
+## Skill files
+
 The entrypoint is [SKILL.md](SKILL.md). Supporting references are loaded only when relevant:
 
 - [Decision checks](references/decision-checks.md)
 - [Creative research](references/creative-research.md)
 - [From reference to brief](references/swipe-to-brief.md)
 
-The optional `agents/openai.yaml` supplies display and invocation metadata.
+The optional `agents/openai.yaml` supplies Codex display and invocation metadata.
 
 ## Use
 
-Ask your agent to use `$customer-journey-clarity` with the page, flow, document, or customer journey you want reviewed. Provide the audience, intended action, and business constraints when available.
+In Codex, ask your agent to use `$customer-journey-clarity`. In Claude Code, use `/customer-journey-clarity`. Supply the page, flow, document, or customer journey you want reviewed, plus the audience, intended action, and business constraints when available.
 
 The skill supports review, scoped improvement, and translating findings into a roadmap. It does not require a particular browser, analytics provider, or private research library. It does not authorize publishing or other external actions on its own.
 
