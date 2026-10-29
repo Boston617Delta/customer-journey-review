@@ -51,6 +51,7 @@ The entrypoint is [SKILL.md](SKILL.md). Supporting references are loaded only wh
 - [Decision checks](references/decision-checks.md)
 - [Creative research](references/creative-research.md)
 - [From reference to brief](references/swipe-to-brief.md)
+- [Applying evidence across contexts](references/evidence-and-transfer.md)
 
 The optional `agents/openai.yaml` supplies Codex display and invocation metadata.
 
@@ -64,7 +65,7 @@ The skill supports review, scoped improvement, and translating findings into a r
 
 This repository contains original reusable guidance. Case-study notes, screenshots, client details, internal roadmaps, and the optional examples library are maintained separately and are not included in this repository or its history.
 
-The guidance was informed by a review of [Growth.Design case studies](https://growth.design/case-studies) and lessons from [Motion's Creative Strategy Bootcamp](https://motionapp.com/events/2026-creative-strategy-bootcamp/homebase/recordings). This is an independent synthesis, with no affiliation or endorsement. Historical examples, proposed redesigns, and reported results should retain their context when used. The public package contains no course recordings, transcripts, decks, or private swipe assets.
+The guidance was informed by a review of [Growth.Design case studies](https://growth.design/case-studies), lessons from [Motion's Creative Strategy Bootcamp](https://motionapp.com/events/2026-creative-strategy-bootcamp/homebase/recordings), Science Says research summaries, selected Product Teardowns, and The Ad Professor references. These sources have different evidence types: studies, practitioner interpretations, proposed designs, and illustrative ad concepts are assessed separately. This is an independent synthesis, with no affiliation or endorsement. The public package contains no course recordings, transcripts, decks, newsletter copies, or private swipe assets.
 
 ## License
 

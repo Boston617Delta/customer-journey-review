@@ -29,6 +29,8 @@ In a static screenshot, distinguish visible information from downstream behavior
 
 Borrow layout logic, information order, or a presentation device without copying distinctive language, brand identity, proprietary claims, or fabricated social proof. Do not infer results or company intent from the design alone.
 
+For print, outdoor, or social references used in a page or app, identify the communication mechanism separately from interface behavior. A product demonstration, objection answer, comparison, or concrete benefit can inform content. It does not establish navigation, form, billing, permission, or accessibility behavior. Verify archive attribution against the actual image; preserve uncertainty when they disagree. Use [Evidence and transfer](evidence-and-transfer.md) when the adaptation depends on research or a reported result.
+
 ## Produce a brief that someone can execute
 
 Make the relationship between evidence and design explicit:

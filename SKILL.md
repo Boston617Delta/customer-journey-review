@@ -57,6 +57,8 @@ Friction is contextual. Remove effort that obstructs the task; preserve a delibe
 
 ## Evidence and trust
 
+For newsletter research, study-based recommendations, or examples transferred between media, read [Evidence and transfer](references/evidence-and-transfer.md). Trace the original finding separately from the publisher's interpretation and the proposed adaptation. Preserve differences in population, intervention, outcome, and setting; several retellings of one study are not independent evidence.
+
 - Separate current observations, historical examples, publisher proposals, reported outcomes, and your own hypotheses. A named bias does not prove a cause or a conversion lift.
 - Match proof to the claim's actual scope. Do not invent testimonials, popularity counts, comparative prices, limited availability, or completed checks.
 - Explain genuine limits and deadlines. Do not create artificial urgency, fake processing, false completion, or guilt-based refusal language.
